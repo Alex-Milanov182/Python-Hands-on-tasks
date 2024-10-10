@@ -8,7 +8,6 @@ class DiceSimulation:
     def __init__(self, num_dice, num_throws):
         self.num_dice = num_dice
         self.num_throws = num_throws
-        #self.sides = sides
         self.results = []
 
     def run_simulation(self):
