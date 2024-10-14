@@ -1,4 +1,7 @@
-import data_helper
+import importlib
+data_helper = importlib.import_module("data-helper")
+
+#import data_helper
 
 def main():
     
